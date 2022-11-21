@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Python on 念旧&#39;s Blog</title>
     <link>https://liyipu0805.github.io/categories/python/</link>
     <description>Recent content in Python on 念旧&#39;s Blog</description>
+    <image>
+      <url>https://liyipu0805.github.io/static/favicon.ico</url>
+      <link>https://liyipu0805.github.io/static/favicon.ico</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 15 Dec 2021 18:07:03 +0800</lastBuildDate><atom:link href="https://liyipu0805.github.io/categories/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,7 +16,7 @@
       <pubDate>Wed, 15 Dec 2021 18:07:03 +0800</pubDate>
       
       <guid>https://liyipu0805.github.io/python/kaoshi/</guid>
-      <description># 3.1 # 文件名：NewMath.py def NewAdd(a, b): return a + b def NewSub(a, b): return a - b def NewMul(a, b): return a * b def NewDiv(a, b): return a / b # 3.2  import re def main(): tel = input(&amp;#34;请输入手机号:&amp;#34;) # ret = re.match(r&amp;#34;1[35678]\d{9}&amp;#34;, tel) # 由于手机号位数大于11位也能匹配成功，所以修改如下： ret = re.match(r&amp;#34;^1[35678]\d{9}$&amp;#34;, tel) if ret: print(&amp;#34;匹配成功&amp;#34;) else: print(&amp;#34;匹配失败&amp;#34;) # 3.3 # 3.4 answer = &amp;#39;&amp;#39;&amp;#39;提供了大量函数，对于用户来说调用方便，功能全面，可以满足常规的全部功能， 其底层代码经过深度优化，相较于用户自定义函数来说，有更高的运算速度和更小的内存占用。 &amp;#39;&amp;#39;&amp;#39; # 3.5 3.5 使用Numpy生成数组以保存0~20之间的数字，并将其中所有偶数替换为0 import numpy as np data = np.</description>
+      <description>Desc Text.</description>
     </item>
     
     <item>
@@ -21,15 +25,7 @@
       <pubDate>Sun, 15 Aug 2021 19:02:03 +0800</pubDate>
       
       <guid>https://liyipu0805.github.io/python/%E9%96%AB%E6%B0%B3%E7%B9%83python%E9%90%96%E6%AB%95%E9%90%96%E5%BD%87%E9%8F%84%E5%BA%A2%E6%A7%A6%E9%90%A8%E5%8B%AD%E5%8F%8E%E9%90%97%E5%9B%A7%E6%8B%B0%E7%92%A7%E5%8B%AC%E6%9E%A1/</guid>
-      <description>一.准备工作 1.选择合适的网站 这次爬虫的目的，是为了为人脸识别项目提供足量的数据集。所以要求目标网站必须符合：
- 明星信息齐全（至少包含正脸照片和姓名） 网站结构简洁，利于格式化爬取。  通过不断的排查，最终锁定粉丝网。随手打开一位明星 发现信息齐全，并且域名非常有规律，只要改变s后面的数字，即可分分钟爬取成千上万的数据，就决定是你了！
-2.安装MongoDB数据库 这么大量的数据需要用数据库来合理的储存，我们选择MongoDB来进行，因为它上手简单并且可以使用Python中的pymongo库操作。
-安装过程请教百度喔
-安装完成后我们选择robo 3T来可视化我们的数据库，界面如下： 非常的简洁明了！
-3.导入依赖库 import requests import sys import re #用于正则化操作 from lxml import etree #上述用于爬虫 import pymongo as pm #链接mongoDB 二.开始爬虫 首先我们链接数据库
-client = pm.MongoClient() db = client[&amp;#39;face&amp;#39;] #访问数据库 collection = db[&amp;#39;my_face&amp;#39;] #访问表 如果数据库和表不存在则会自动创建
-接着我们构建请求头，来躲过网站的反爬虫机制。
-headers = {&amp;#39;Referer&amp;#39;:&amp;#39;https://accounts.pixiv.net/loginlang=zh&amp;amp;source=pc&amp;amp;view_type=page&amp;amp;ref=wwwtop_accounts_index&amp;#39;, &amp;#39;User-Agent&amp;#39;:&amp;#39;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36&amp;#39; } for j in range(1,5000): content1 = requests.</description>
+      <description>Desc Text.</description>
     </item>
     
     <item>
@@ -38,16 +34,7 @@ headers = {&amp;#39;Referer&amp;#39;:&amp;#39;https://accounts.pixiv.net/loginla
       <pubDate>Sun, 15 Aug 2021 16:45:14 +0800</pubDate>
       
       <guid>https://liyipu0805.github.io/python/first/</guid>
-      <description>本系列为观看吴恩达老师的[中英字幕]吴恩达机器学习系列课程做的课堂笔记。图片来自视频截图。 不得不说，看了老师的视频真的学到了很多。即使数学不好的同志们也可以看懂，真的可谓是细致入微了。
-一.逻辑斯蒂回归 1.模型 学过深度学习的同志们对这张图一定不陌生，它在神经网络中作为常用的激活函数，将输出值控制在0-1之间。他就是Sigmoid函数！当然它也被称为Logistic函数，这就是逻辑斯蒂回归算法的由来。
-还有一点要注意的是，虽然名字叫做逻辑斯蒂回归，但他解决的其实是分类问题。其实原理很简单，对于二分类任务来说，大于0就是正类，小于0就是负类。对于多分类问题稍后再讨论。
-def Sigmoid(x:np.array) -&amp;gt; np.array: return (1 / (1 + np.exp(-x))) 2.代价函数（损失函数） 即真实值为正类时，预测值越靠近1，损失越小，越靠近0，损失越大。 反之 简化之后 y为正类时，后一项为0，y为负类时，前一项为0。
-最终的损失函数定义为： 是不是很眼熟？它就是大名鼎鼎的交叉熵损失函数的特殊形式！
-pred为预测值，y为真实值，X为原始样本。 返回值前者为各个参数的损失值
-3.优化算法 这里我们选择梯度下降算法。关于梯度下降具体介绍，这里不做延伸。只给出公式 alpha为学习率，后面的对损失函数的偏导可以写成这样的形式 看着复杂，其实就是同时更新所有的参数。注意要是同时喔。所以通过循环可以实现，但更推荐通过矩阵运算实现，这样更简洁高效。
-配合代码更好理解~
-def LossFuntion(pred, y, X): m = len(pred) sumloss = 0 for i,j,z in zip(pred, y, X): sumloss+= (i-j) * z return sumloss/m def GrandDesent(w, loss, alpha=0.01): update = w.T - alpha*loss return update 二.代码实现 1.二维二分类 这次使用鸢尾花数据集。先导包
-import numpy as np from sklearn.</description>
+      <description>Desc Text.</description>
     </item>
     
   </channel>
