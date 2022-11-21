@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Python on 念旧&#39;s Blog</title>
+    <link>https://github.com/liyipu0805/liyipu0805.github.io/categories/python/</link>
+    <description>Recent content in Python on 念旧&#39;s Blog</description>
+    <image>
+      <url>https://github.com/liyipu0805/liyipu0805.github.io/static/favicon.ico</url>
+      <link>https://github.com/liyipu0805/liyipu0805.github.io/static/favicon.ico</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 15 Dec 2021 18:07:03 +0800</lastBuildDate><atom:link href="https://github.com/liyipu0805/liyipu0805.github.io/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>考试复习参考资料</title>
+      <link>https://github.com/liyipu0805/liyipu0805.github.io/python/kaoshi/</link>
+      <pubDate>Wed, 15 Dec 2021 18:07:03 +0800</pubDate>
+      
+      <guid>https://github.com/liyipu0805/liyipu0805.github.io/python/kaoshi/</guid>
+      <description>Desc Text.</description>
+    </item>
+    
+    <item>
+      <title>通过PYTHON爬虫爬取明星的照片和资料</title>
+      <link>https://github.com/liyipu0805/liyipu0805.github.io/python/%E9%96%AB%E6%B0%B3%E7%B9%83python%E9%90%96%E6%AB%95%E9%90%96%E5%BD%87%E9%8F%84%E5%BA%A2%E6%A7%A6%E9%90%A8%E5%8B%AD%E5%8F%8E%E9%90%97%E5%9B%A7%E6%8B%B0%E7%92%A7%E5%8B%AC%E6%9E%A1/</link>
+      <pubDate>Sun, 15 Aug 2021 19:02:03 +0800</pubDate>
+      
+      <guid>https://github.com/liyipu0805/liyipu0805.github.io/python/%E9%96%AB%E6%B0%B3%E7%B9%83python%E9%90%96%E6%AB%95%E9%90%96%E5%BD%87%E9%8F%84%E5%BA%A2%E6%A7%A6%E9%90%A8%E5%8B%AD%E5%8F%8E%E9%90%97%E5%9B%A7%E6%8B%B0%E7%92%A7%E5%8B%AC%E6%9E%A1/</guid>
+      <description>Desc Text.</description>
+    </item>
+    
+    <item>
+      <title>逻辑斯蒂回归LogisticRegressor处理二分类任务</title>
+      <link>https://github.com/liyipu0805/liyipu0805.github.io/python/first/</link>
+      <pubDate>Sun, 15 Aug 2021 16:45:14 +0800</pubDate>
+      
+      <guid>https://github.com/liyipu0805/liyipu0805.github.io/python/first/</guid>
+      <description>Desc Text.</description>
+    </item>
+    
+  </channel>
+</rss>
